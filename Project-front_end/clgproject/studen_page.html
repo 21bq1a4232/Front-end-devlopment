@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            margin-bottom: 30px;
+        }
+
+        .links a {
+            display: block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            label {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+
+            select {
+                padding: 8px;
+                margin-bottom: 15px;
+            }
+
+            .links a {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+            .back-button {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <label for="dropdown">Select Year:</label>
+        <select id="dropdown" aria-label="Select Year">
+            <option value="" disabled selected>Select a year</option>
+            <option value="|">|</option>
+            <option value="||">||</option>
+            <option value="|||">|||</option>
+            <option value="IV">IV</option>
+            <option value="V">V</option>
+            <option value="VI">VI</option>
+            <option value="VII">VII</option>
+            <option value="VIII">VIII</option>
+            <option value="IX">IX</option>
+            <option value="X">X</option>
+        </select>
+
+        <div class="links">
+            <a href="Fee Status.html">FEE STATUS</a>
+            <a href="Academics.html">ACADEMICS</a>
+            <a href="Profile.html">PROFILE</a>
+            <a href="Extracurricular.html">Extra Curricular</a>
+        </div>
+
+        <a class="back-button" href="#">Back</a>
+    </div>
+</body>
+
+</html>
